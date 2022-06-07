@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: domaci
+  labels:
+    name: test
+spec:
+  containers:
+  - name: domaci
+    image: adam1549/prvidomaci:latest
+    ports:
+    - containerPort: 8081

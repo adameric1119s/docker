@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drugideo
+  labels:
+    name: test2
+spec:
+  containers:
+  - name: drugideo
+    image: adam1549/drugideo:latest
+    ports:
+    - containerPort: 8081
